@@ -1,7 +1,13 @@
 [package]
 name = "batsignal"
+description = "Batsignal is a lightweight command-line utility designed for seamless integration with scripts, allowing you to automate actions based on your device's battery status."
+authors = ["Midas van Veen <midasvanveen.email@gmail.com>"]
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+keywords = ["cli", "battery", "laptop", "power"]
+categories = ["command-line-utilities"]
+publish = ["crates.io"]
 
 [dependencies]
 battery = "0.7.8"
