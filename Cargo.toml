@@ -1,0 +1,9 @@
+[package]
+name = "batsignal"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+battery = "0.7.8"
+clap = { version = "4.5.29", features = ["derive"] }
+derive_more = { version = "2.0.1", features = ["display", "from"] }
